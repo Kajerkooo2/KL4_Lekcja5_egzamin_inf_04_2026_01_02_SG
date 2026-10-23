@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2E7CB8"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:id="@+id/main">
+
+    <ImageView
+        android:id="@+id/obrazPytania"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/zad1" />
+
+    <TextView
+        android:id="@+id/trescPytania"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24dp"
+        android:text="Które to schronisko?"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <RadioGroup
+        android:id="@+id/grupaOdpowiedzi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/odpowiedzA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Na Rysiance."
+            android:textColor="#FFFFFF" />
+
+        <RadioButton
+            android:id="@+id/odpowiedzB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Na Wielkiej Raczy."
+            android:textColor="#FFFFFF" />
+
+        <RadioButton
+            android:id="@+id/odpowiedzC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Na Wielkiej Rycerzowej."
+            android:textColor="#FFFFFF" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/przyciskDalej"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:text="DALEJ"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>
